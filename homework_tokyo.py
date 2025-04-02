@@ -10,7 +10,7 @@ while True:
     else:
         attempts -= 1
         if attempts > 0:
-            print("incorrect answer")
+            print(f"incorrect answer. You have {attempts} attempts left")
         else:
             print("reached max attempts")
             break
